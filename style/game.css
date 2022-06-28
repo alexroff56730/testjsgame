@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+#joueur {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    backdrop-filter: blur(4px);
+}
+
+.map {
+    background-color: green;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+

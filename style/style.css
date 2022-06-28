@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: goldenrod;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body .entete {
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    padding: 30px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.entete figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.entete figure h1 {
+    text-align: center;
+}
+
+.entete .nav-menu {
+    margin-left: 60%;
+}
+
+.entete .nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+}
+
+.entete .nav-menu ul li {
+    margin-left: 5px;
+}
+
+.entete .nav-menu ul li a {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.entete .nav-menu ul li a:hover {
+    color: rgb(196, 124, 38);
+}
+
+.actu {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
